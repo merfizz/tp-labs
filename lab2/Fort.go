@@ -6,7 +6,7 @@ type Fort struct {
 	Building
 }
 
-func (f *Fort) Attack(target *Unit) {
+func (f *Fort) Attack(target Damageable) {
 	target.ReceiveDamage(30.0)
 }
 

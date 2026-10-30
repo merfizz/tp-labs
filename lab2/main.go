@@ -7,7 +7,6 @@ func main() {
 	archer := &Archer{
 		Unit: Unit{
 			GameObject: GameObject{id: 1, name: "Merfi", x: 0, y: 0},
-			alive:      true,
 			hp:         100.0,
 		},
 	}
@@ -19,7 +18,6 @@ func main() {
 	// Создаем вражеского юнита
 	enemy := &Unit{
 		GameObject: GameObject{id: 2, name: "Orc", x: 5, y: 5},
-		alive:      true,
 		hp:         50.0,
 	}
 

@@ -6,7 +6,7 @@ type Archer struct {
 	Unit
 }
 
-func (a *Archer) Attack(target *Unit) {
+func (a *Archer) Attack(target Damageable) {
 	target.ReceiveDamage(15.0)
 }
 
